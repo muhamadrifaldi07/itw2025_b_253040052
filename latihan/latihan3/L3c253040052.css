@@ -1,0 +1,56 @@
+body{
+    background-color: aqua;
+}
+h1 {
+    font-family: Comic Sans MS;
+    font-size: 60px;
+    color: darkblue;
+    text-align: center;
+ 
+}
+h4{
+    text-align: right;
+    font-style: italic;
+}
+p{
+    text-align: justify;
+}
+
+h3 a {
+    color: white;
+}
+
+
+#atas {
+    color: orange;
+    text-align: center;
+}
+
+#bawah  {
+    
+    line-height: 1.5;
+    text-align: center;
+    
+}
+
+#bawah a:hover{
+    background-color: blue;
+    color: white;
+}
+
+#bawah a {
+    font-weight: bold;
+}
+
+#bawah a:link {
+    text-decoration: none;
+}
+
+
+.sosmed:hover{
+    color: red;
+}
+
+.sosmed:link{
+    text-decoration: none;
+}
