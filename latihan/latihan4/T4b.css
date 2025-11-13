@@ -1,0 +1,185 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    line-height: 1;
+    padding: 30px;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Style */
+body {
+    font: 16px/28px times new roman, arial;
+    background-color: #eaeaea;
+    background-image: url(img/latar\ daun\ 3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+}
+.container {
+    width: 850px;
+    margin: auto;
+    background: rgba(255,255,255,0,1);
+    color: white;
+    box-shadow: 0 0 40px rgba(0,0,0,0,3);
+    border-radius: 25px;
+    backdrop-filter: blur(1000px);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    
+
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: inline-block;
+    margin: top 10px;
+    margin: right 0;
+    text-align: justify;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(13, 171, 23);
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: rgb(164, 250, 135);
+    color: white;
+}
+
+
+.hero img{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: -2px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+
+.content {
+    padding: 20px;
+}
+
+.content h2{
+
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+    color: #0ab020;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.content .penulis a {
+    color: rgb(114, 250, 132);
+    text-decoration: none;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.content2 img {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+.content2 p {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+.footer
+ {
+    background-color: #b4b4b488;
+    padding: 5px;
+    border-radius: 25px;
+ }
+
+ .footer .copy {
+    color: #0000005a;
+    text-align: center;
+    font-size: 18px;
+ }
